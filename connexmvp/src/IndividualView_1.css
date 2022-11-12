@@ -8,7 +8,7 @@
 	height: 100vh;
 	overflow: auto;
 }
-.IndividualView_1_IndividualView .InfosessionsCaseWorkshopsApplicant1 {
+.IndividualView_1_IndividualView .OverallBackground {
 	position: absolute;
 	left: 0px;
 	top: -9px;
@@ -16,207 +16,40 @@
 	height: 1024px;
 	background: rgba(243,248,255,1.00);
 }
-.IndividualView_1_IndividualView .InfosessionsCaseWorkshopsApplicant1 .Line102 {
+.IndividualView_1_IndividualView .Essay2Group {
 	position: absolute;
-	left: 722.5px;
-	top: 0px;
-	width: 0px;
-	height: 1024px;
+	left: 743px;
+	top: 681.223388671875px;
+	width: 676px;
+	height: 264.776611328125px;
+	border-radius: 10px;
 }
-.IndividualView_1_IndividualView .InfosessionsCaseWorkshopsApplicant1 .JamesChongResumeFall20221 {
-	position: absolute;
-	left: 21px;
-	top: 30px;
-	width: 681px;
-	height: 963px;
-	object-fit: cover;
-	overflow: hidden;
-	border: 1px solid rgba(0,0,0,1);
-	box-sizing: border-box;
-}
-.IndividualView_1_IndividualView .InfosessionsCaseWorkshopsApplicant1 .image6 {
-	position: absolute;
-	left: 782px;
-	top: 80px;
-	width: 200px;
-	height: 209.30224609375px;
-	object-fit: cover;
-	overflow: hidden;
-	border-radius: 101px;
-	border: 2px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-	box-sizing: border-box;
-}
-.IndividualView_1_IndividualView .Group13900 {
-	position: absolute;
-	left: 741px;
-	top: 357px;
-	width: 678px;
-	height: 302.77685546875px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 {
+.IndividualView_1_IndividualView .Essay2Group .Essay2Box {
 	position: absolute;
 	left: 0px;
-	top: 0px;
-	width: 678px;
-	height: 302.77685546875px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset {
-	position: absolute;
-	left: 0px;
-	top: 31.6630859375px;
-	width: 678px;
-	height: 271.11376953125px;
+	top: 29.776611328125px;
+	width: 676px;
+	height: 235px;
 	background: rgba(255,255,255,1.00);
-	border: 1px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .border {
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 678px;
-	height: 271px;
-	border-radius: 8px;
-	border: 4px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .TrailingIcon {
-	visibility: hidden;
-	position: absolute;
-	right: 16px;
-	top: 50.163442541166816%;
-	transform: translate(0, -50%);
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .TrailingIcon .Group1484 {
-	position: absolute;
-	left: 2px;
-	top: 5px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .TrailingIcon .Group1484 .Group1483 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .TrailingIcon .Group1484 .Group1483 .Vector {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .TrailingIcon .Group1484 .Group1483 .Vector_1 {
-	position: absolute;
-	left: 7px;
-	top: 4.375px;
-	width: 27.27272727272727%;
-	height: 37.5%;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText {
-	position: absolute;
-	left: 12px;
-	width: 0px;
-	height: 16px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon18x18 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 18px;
-	height: 18px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon18x18 .Group1257 {
-	position: absolute;
-	left: 3.75px;
-	top: 3.75px;
-	width: 10.125px;
-	height: 10.125px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon18x18 .Group1257 .VectorStroke {
-	position: absolute;
-	left: 4.40234375px;
-	top: 0px;
-	width: 13.040123456790123%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon18x18 .Group1257 .VectorStroke_1 {
-	position: absolute;
-	left: 0px;
-	top: 4.402099609375px;
-	width: 100%;
-	height: 56.52247299382716%;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon24x24 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon24x24 .Group1257_1 {
-	position: absolute;
-	left: 5px;
-	top: 5px;
-	width: 13.5px;
-	height: 13.5px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon24x24 .Group1257_1 .VectorStroke_2 {
-	position: absolute;
-	left: 5.869140625px;
-	top: 0px;
-	width: 13.042534722222221%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .LeadingIcon24x24 .Group1257_1 .VectorStroke_3 {
-	position: absolute;
-	left: 0px;
-	top: 5.86962890625px;
-	width: 100%;
-	height: 56.521267361111114%;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .text {
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 0px;
-	height: 16px;
-	display: flex;
+	border-radius: 10px;
+	border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
 	box-sizing: border-box;
-	align-items: center;
 }
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .IconText .text .Text {
-	position: relative;
-	flex: none;
-	margin-right: 4px;
-	width: 100%;
-	color: rgba(36,37,51,1.00);
+.IndividualView_1_IndividualView .Essay2Group .Essay2Texts {
+	position: absolute;
+	left: 13.890625px;
+	top: 46.504638671875px;
+	width: 646.21875px;
+	height: 187.99853515625px;
+	color: rgba(0,0,0,1.00);
 	font-family: Inter;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 16px;
+	line-height: 19.363636016845703px;
 }
-.IndividualView_1_IndividualView .Group13900 .Group13903 .inputsset .Label {
-	visibility: hidden;
+.IndividualView_1_IndividualView .Essay2Group .Essay2Title {
 	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	top: -24px;
-	width: 678px;
-	height: 16px;
-	display: flex;
-	align-items: flex-end;
-	color: rgba(128,129,146,1.00);
-	font-family: Inter;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13900 .Group13903 .Essay1 {
-	position: absolute;
-	left: 15.890625px;
+	left: 13.890625px;
 	top: 0px;
 	width: 451.55859375px;
 	height: 18.7998046875px;
@@ -226,9 +59,28 @@
 	font-weight: 600;
 	line-height: 19.363636016845703px;
 }
-.IndividualView_1_IndividualView .Group13900 .Group13903 .LoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequatDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborumDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborum {
+.IndividualView_1_IndividualView .Essay1Group {
 	position: absolute;
-	left: 15.890625px;
+	left: 743px;
+	top: 356px;
+	width: 676px;
+	height: 264px;
+	border-radius: 10px;
+}
+.IndividualView_1_IndividualView .Essay1Group .Essay1Box {
+	position: absolute;
+	left: 0px;
+	top: 29px;
+	width: 676px;
+	height: 235px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+	border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+	box-sizing: border-box;
+}
+.IndividualView_1_IndividualView .Essay1Group .Essay1Text {
+	position: absolute;
+	left: 13.890625px;
 	top: 46.5048828125px;
 	width: 646.21875px;
 	height: 187.99853515625px;
@@ -238,387 +90,38 @@
 	font-weight: 400;
 	line-height: 19.363636016845703px;
 }
-.IndividualView_1_IndividualView .Group13903_1 {
+.IndividualView_1_IndividualView .Essay1Group .Essay1Title {
 	position: absolute;
-	left: 761px;
-	top: 61px;
-	width: 658px;
-	height: 265.622802734375px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 {
-	position: absolute;
-	left: 290px;
-	top: 28px;
-	width: 368px;
-	height: 132px;
-	background: rgba(255,255,255,1.00);
-	border: 1px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .border_1 {
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 368px;
-	height: 132px;
-	border-radius: 8px;
-	border: 4px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .TrailingIcon_1 {
-	visibility: hidden;
-	position: absolute;
-	right: 16px;
-	top: 50%;
-	transform: translate(0, -50%);
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .TrailingIcon_1 .Group1484_1 {
-	position: absolute;
-	left: 2px;
-	top: 5px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .TrailingIcon_1 .Group1484_1 .Group1483_1 {
-	position: absolute;
-	left: 0px;
+	left: 13.890625px;
 	top: 0px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .TrailingIcon_1 .Group1484_1 .Group1483_1 .Vector_2 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .TrailingIcon_1 .Group1484_1 .Group1483_1 .Vector_3 {
-	position: absolute;
-	left: 7px;
-	top: 4.375px;
-	width: 27.27272727272727%;
-	height: 37.5%;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 {
-	position: absolute;
-	left: 12px;
-	width: 0px;
-	height: 16px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon18x18_1 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 18px;
-	height: 18px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon18x18_1 .Group1257_2 {
-	position: absolute;
-	left: 3.75px;
-	top: 3.75px;
-	width: 10.125px;
-	height: 10.125px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon18x18_1 .Group1257_2 .VectorStroke_4 {
-	position: absolute;
-	left: 4.40234375px;
-	top: 0px;
-	width: 13.040123456790123%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon18x18_1 .Group1257_2 .VectorStroke_5 {
-	position: absolute;
-	left: 0px;
-	top: 4.402099609375px;
-	width: 100%;
-	height: 56.52247299382716%;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon24x24_1 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon24x24_1 .Group1257_3 {
-	position: absolute;
-	left: 5px;
-	top: 5px;
-	width: 13.5px;
-	height: 13.5px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon24x24_1 .Group1257_3 .VectorStroke_6 {
-	position: absolute;
-	left: 5.869140625px;
-	top: 0px;
-	width: 13.042534722222221%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .LeadingIcon24x24_1 .Group1257_3 .VectorStroke_7 {
-	position: absolute;
-	left: 0px;
-	top: 5.86962890625px;
-	width: 100%;
-	height: 56.521267361111114%;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .text_1 {
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 0px;
-	height: 16px;
-	display: flex;
-	box-sizing: border-box;
-	align-items: center;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .IconText_1 .text_1 .Text_1 {
-	position: relative;
-	flex: none;
-	margin-right: 4px;
-	width: 100%;
-	color: rgba(36,37,51,1.00);
-	font-family: Inter;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .inputsset_1 .Label_1 {
-	visibility: hidden;
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	top: -24px;
-	width: 368px;
-	height: 16px;
-	display: flex;
-	align-items: flex-end;
-	color: rgba(128,129,146,1.00);
-	font-family: Inter;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .Referrals {
-	position: absolute;
-	left: 299px;
-	top: 0px;
-	width: 245.09375px;
-	height: 27.622802734375px;
+	width: 451.55859375px;
+	height: 18.7998046875px;
 	color: rgba(0,0,0,1.00);
 	font-family: Inter;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 19.363636016845703px;
 }
-.IndividualView_1_IndividualView .Group13903_1 .JamesChongjameschongberkeleyedu151099904356 {
-	position: absolute;
-	left: 0px;
-	top: 238px;
-	width: 245.09375px;
-	height: 27.622802734375px;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	color: rgba(0,0,0,1.00);
-	font-family: Inter;
-	font-size: 10px;
-	font-weight: 400;
-	font-style: italic;
-	line-height: 12.102272033691406px;
-}
-.IndividualView_1_IndividualView .Group13903_1 .ChrisBernardThoughttheywereveryengagingRichardLinTheywereincrediblysocialandgenuinelyinterestedintheclub {
-	position: absolute;
-	left: 299px;
-	top: 39px;
-	width: 350px;
-	height: 120px;
-	color: rgba(0,0,0,1.00);
-	font-family: Inter;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 19.363636016845703px;
-}
-.IndividualView_1_IndividualView .Group13903_2 {
+.IndividualView_1_IndividualView .AttachmentsGroup {
 	position: absolute;
 	left: 1051px;
 	top: 244px;
 	width: 368px;
-	height: 109px;
-	border-radius: 8px;
+	height: 112px;
+	border-radius: 10px;
 }
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 {
+.IndividualView_1_IndividualView .AttachmentsGroup .AttachmentsBox {
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: 26px;
 	width: 368px;
-	height: 109px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 {
-	position: absolute;
-	left: 0px;
-	top: 25px;
-	width: 368px;
-	height: 84px;
+	height: 86px;
 	background: rgba(255,255,255,1.00);
-	border: 1px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .border_2 {
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 368px;
-	height: 84px;
-	border-radius: 8px;
-	border: 4px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .TrailingIcon_2 {
-	visibility: hidden;
-	position: absolute;
-	right: 16px;
-	top: 50%;
-	transform: translate(0, -50%);
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .TrailingIcon_2 .Group1484_2 {
-	position: absolute;
-	left: 2px;
-	top: 5px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .TrailingIcon_2 .Group1484_2 .Group1483_2 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .TrailingIcon_2 .Group1484_2 .Group1483_2 .Vector_4 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .TrailingIcon_2 .Group1484_2 .Group1483_2 .Vector_5 {
-	position: absolute;
-	left: 7px;
-	top: 4.375px;
-	width: 27.27272727272727%;
-	height: 37.5%;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 {
-	position: absolute;
-	left: 12px;
-	width: 0px;
-	height: 16px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon18x18_2 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 18px;
-	height: 18px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon18x18_2 .Group1257_4 {
-	position: absolute;
-	left: 3.75px;
-	top: 3.75px;
-	width: 10.125px;
-	height: 10.125px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon18x18_2 .Group1257_4 .VectorStroke_8 {
-	position: absolute;
-	left: 4.40234375px;
-	top: 0px;
-	width: 13.040123456790123%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon18x18_2 .Group1257_4 .VectorStroke_9 {
-	position: absolute;
-	left: 0px;
-	top: 4.402099609375px;
-	width: 100%;
-	height: 56.52247299382716%;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon24x24_2 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon24x24_2 .Group1257_5 {
-	position: absolute;
-	left: 5px;
-	top: 5px;
-	width: 13.5px;
-	height: 13.5px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon24x24_2 .Group1257_5 .VectorStroke_10 {
-	position: absolute;
-	left: 5.869140625px;
-	top: 0px;
-	width: 13.042534722222221%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .LeadingIcon24x24_2 .Group1257_5 .VectorStroke_11 {
-	position: absolute;
-	left: 0px;
-	top: 5.86962890625px;
-	width: 100%;
-	height: 56.521267361111114%;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .text_2 {
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 0px;
-	height: 16px;
-	display: flex;
+	border-radius: 10px;
+	border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
 	box-sizing: border-box;
-	align-items: center;
 }
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .IconText_2 .text_2 .Text_2 {
-	position: relative;
-	flex: none;
-	margin-right: 4px;
-	width: 100%;
-	color: rgba(36,37,51,1.00);
-	font-family: Inter;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .inputsset_2 .Label_2 {
-	visibility: hidden;
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	top: -24px;
-	width: 368px;
-	height: 16px;
-	display: flex;
-	align-items: flex-end;
-	color: rgba(128,129,146,1.00);
-	font-family: Inter;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .Attachments {
-	position: absolute;
-	left: 8.625px;
-	top: 0px;
-	width: 245.09375px;
-	height: 14.83203125px;
-	color: rgba(0,0,0,1.00);
-	font-family: Inter;
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 19.363636016845703px;
-}
-.IndividualView_1_IndividualView .Group13903_2 .Group13903_3 .LinkedInlinkedincomsfasdfOthermypersonalwebsitecomVideolink {
+.IndividualView_1_IndividualView .AttachmentsGroup .AttachmentsText {
 	position: absolute;
 	left: 8.625px;
 	top: 36.689453125px;
@@ -630,211 +133,112 @@
 	font-weight: 400;
 	line-height: 19.363636016845703px;
 }
-.IndividualView_1_IndividualView .Group13901 {
+.IndividualView_1_IndividualView .AttachmentsGroup .AttachmentsTitle {
 	position: absolute;
-	left: 741px;
-	top: 681.223388671875px;
-	width: 678px;
-	height: 302.7763671875px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 {
-	position: absolute;
-	left: 0px;
+	left: 8.625px;
 	top: 0px;
-	width: 678px;
-	height: 302.7763671875px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 {
-	position: absolute;
-	left: 0px;
-	top: 31.66259765625px;
-	width: 678px;
-	height: 271.11376953125px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 678px;
-	height: 271.11376953125px;
-	border-radius: 8px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 678px;
-	height: 271.11376953125px;
-	background: rgba(255,255,255,1.00);
-	border: 1px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .border_3 {
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 678px;
-	height: 271px;
-	border-radius: 8px;
-	border: 4px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .TrailingIcon_3 {
-	visibility: hidden;
-	position: absolute;
-	right: 16px;
-	top: 50.163442541166816%;
-	transform: translate(0, -50%);
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .TrailingIcon_3 .Group1484_3 {
-	position: absolute;
-	left: 2px;
-	top: 5px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .TrailingIcon_3 .Group1484_3 .Group1483_3 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 19.25px;
-	height: 14px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .TrailingIcon_3 .Group1484_3 .Group1483_3 .Vector_6 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .TrailingIcon_3 .Group1484_3 .Group1483_3 .Vector_7 {
-	position: absolute;
-	left: 7px;
-	top: 4.375px;
-	width: 27.27272727272727%;
-	height: 37.5%;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 {
-	position: absolute;
-	left: 12px;
-	width: 0px;
-	height: 16px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon18x18_3 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 18px;
-	height: 18px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon18x18_3 .Group1257_6 {
-	position: absolute;
-	left: 3.75px;
-	top: 3.75px;
-	width: 10.125px;
-	height: 10.125px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon18x18_3 .Group1257_6 .VectorStroke_12 {
-	position: absolute;
-	left: 4.40234375px;
-	top: 0px;
-	width: 13.040123456790123%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon18x18_3 .Group1257_6 .VectorStroke_13 {
-	position: absolute;
-	left: 0px;
-	top: 4.402099609375px;
-	width: 100%;
-	height: 56.52247299382716%;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon24x24_3 {
-	visibility: hidden;
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon24x24_3 .Group1257_7 {
-	position: absolute;
-	left: 5px;
-	top: 5px;
-	width: 13.5px;
-	height: 13.5px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon24x24_3 .Group1257_7 .VectorStroke_14 {
-	position: absolute;
-	left: 5.869140625px;
-	top: 0px;
-	width: 13.042534722222221%;
-	height: 100%;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .LeadingIcon24x24_3 .Group1257_7 .VectorStroke_15 {
-	position: absolute;
-	left: 0px;
-	top: 5.86962890625px;
-	width: 100%;
-	height: 56.521267361111114%;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .text_3 {
-	position: relative;
-	flex: none;
-	margin-right: 8px;
-	width: 0px;
-	height: 16px;
-	display: flex;
-	box-sizing: border-box;
-	align-items: center;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .IconText_3 .text_3 .Text_3 {
-	position: relative;
-	flex: none;
-	margin-right: 4px;
-	width: 100%;
-	color: rgba(36,37,51,1.00);
-	font-family: Inter;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Group13896 .Group13891 .inputsset_3 .Label_3 {
-	visibility: hidden;
-	position: absolute;
-	margin-left: 0px;
-	margin-right: 0px;
-	top: -24px;
-	width: 678px;
-	height: 16px;
-	display: flex;
-	align-items: flex-end;
-	color: rgba(128,129,146,1.00);
-	font-family: Inter;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 16px;
-}
-.IndividualView_1_IndividualView .Group13901 .Group13902 .Essay2 {
-	position: absolute;
-	left: 15.890625px;
-	top: 0px;
-	width: 451.55859375px;
-	height: 18.7998046875px;
+	width: 245.09375px;
+	height: 14.83203125px;
 	color: rgba(0,0,0,1.00);
 	font-family: Inter;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 19.363636016845703px;
 }
-.IndividualView_1_IndividualView .Group13901 .Group13902 .LoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequatDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborumDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborum_1 {
+.IndividualView_1_IndividualView .ReferralsGroup {
 	position: absolute;
-	left: 15.890625px;
-	top: 46.504638671875px;
-	width: 646.21875px;
-	height: 187.99853515625px;
+	left: 1051px;
+	top: 61px;
+	width: 368px;
+	height: 170px;
+	border-radius: 10px;
+}
+.IndividualView_1_IndividualView .ReferralsGroup .ReferralsBox {
+	position: absolute;
+	left: 0px;
+	top: 28px;
+	width: 368px;
+	height: 142px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+	border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+	box-sizing: border-box;
+}
+.IndividualView_1_IndividualView .ReferralsGroup .ReferralsText {
+	position: absolute;
+	left: 9px;
+	top: 39px;
+	width: 350px;
+	height: 120px;
 	color: rgba(0,0,0,1.00);
 	font-family: Inter;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19.363636016845703px;
+}
+.IndividualView_1_IndividualView .ReferralsGroup .ReferralsTitle {
+	position: absolute;
+	left: 9px;
+	top: 0px;
+	width: 245.09375px;
+	height: 27.622802734375px;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.363636016845703px;
+}
+.IndividualView_1_IndividualView .ProfileGroup {
+	position: absolute;
+	left: 761px;
+	top: 71px;
+	width: 245px;
+	height: 277px;
+	border-radius: 101px;
+}
+.IndividualView_1_IndividualView .ProfileGroup .ProfilePicture {
+	position: absolute;
+	left: 21px;
+	top: 0px;
+	width: 200px;
+	height: 209.30224609375px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 101px;
+	border: 3px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+	box-sizing: border-box;
+}
+.IndividualView_1_IndividualView .ProfileGroup .ContactInfo {
+	position: absolute;
+	left: 0px;
+	top: 228px;
+	width: 245px;
+	height: 49px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 14.522727012634277px;
+}
+.IndividualView_1_IndividualView .MiddleLine {
+	position: absolute;
+	left: 722.5px;
+	top: -9px;
+	width: 0px;
+	height: 1024px;
+}
+.IndividualView_1_IndividualView .Resume {
+	position: absolute;
+	left: 21px;
+	top: 21px;
+	width: 681px;
+	height: 963px;
+	object-fit: cover;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
 }
