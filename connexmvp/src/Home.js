@@ -1,16 +1,14 @@
-import ApplicationList from "./ApplicationList";
+import BlogList from "./BlogList";
 import useFetch from "./useFetch";
-import React from 'react';
 
 const Home = () => {
-  const {data: applications, isPending, error} = useFetch("http://localhost:8000/applications");
-
+  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
 
   return (
     <div className="home">
-      { error && <div>{ error }</div>}
+      { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
-      { applications && <ApplicationList applications={applications} title="Applications"/>}
+      { blogs && <BlogList blogs={blogs} /> }
     </div>
   );
 }
