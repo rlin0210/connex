@@ -111,28 +111,81 @@
 
 .left {
   width: 50%;
+  height: 100%;
   float: left;
 }
 
 .right {
   width: 50%;
+  height: 100vh;
   float: right;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .top {
   width: 100%;
   height: 33%;
-  top: 0%;
+}
+
+.ProfileGroup {
+  float: left;
+  width: 40%;
+}
+
+.OtherGroup {
+  float: right;
+  width: 60%;
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ReferralGroup {
+  width: 100%;
+  height: 50%;
+  margin-top: 2%;
+}
+
+.AttachmentGroup{
+  width: 100%;
+  height: 50%;
+  margin-top: 2%;
+}
+
+.ReferralBody {
+  border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+}
+
+.AttachmentGroup {
+  width: 100%;
+  height: 50%;
 }
 
 .middle {
   width: 100%;
   height: 33%;
   top: 33%;
+  border-radius: 10px;
+  background: rgba(255,255,255,1.00);
+  border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+  box-sizing: border-box;
+  color: rgba(0,0,0,1.00);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto;
 }
 
-.middle {
+.bottom {
   width: 100%;
   height: 33%;
   top: 66%;
+  border-radius: 10px;
+  background: rgba(255,255,255,1.00);
+  border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+  box-sizing: border-box;
 }
