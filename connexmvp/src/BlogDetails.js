@@ -52,11 +52,19 @@ const BlogDetails = () => {
 
           </div>
         </div>
+        <div className="EssayGroup">
+        <div class="Essay1Group">
+                Essay 1 Prompt:
         <div class="middle">
-          should be middle
+          Essay 1 Response Body
         </div>
+        </div>
+        <div class="Essay2Group">
+                Essay 2 Prompt:
         <div class="bottom">
-          should be bottom
+        Essay 2 Response Body
+        </div>
+        </div>
         </div>
       </div>
     </div>
