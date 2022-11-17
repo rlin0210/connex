@@ -1,4 +1,5 @@
 import { useHistory, useParams } from "react-router-dom";
+import { Image } from 'react-native';
 import useFetch from "./useFetch";
 import React from "react";
 
@@ -15,12 +16,11 @@ const BlogDetails = () => {
       <div class="right">
         <div class="top">
           <div class="ProfileGroup">
-            profile
             <div class="ProfilePic">
-
+              Insert image here
             </div>
             <div class="ContactInfo">
-
+              contact information
             </div>
           </div>
           <div class="OtherGroup">
@@ -29,27 +29,17 @@ const BlogDetails = () => {
                 Referrals:
               </div>
               <div class="ReferralBody">
-                Chris Bernard<br></br>
-                Thought they were very engaging
-                <br></br>
-                <br></br>
-                Richard Lin<br></br>
-                They were incredibly social and genuinely interested in the club
+                referral text
               </div>
             </div>
             <div class="AttachmentGroup">
-            <div class="ReferralTitle">
-                Attachments:
+              <div class="AttachmentTitle">
+                  Attachments:
               </div>
-              <div class="ReferralBody">
-                LinkedIn: linkedin.com/sfasdf
-                <br></br>
-                Other: mypersonalwebsite.com
-                <br></br>
-                Video: link
+              <div class="AttachmentBody">
+                attachment text
               </div>
             </div>
-
           </div>
         </div>
         <div className="EssayGroup">
