@@ -1,5 +1,4 @@
 import { useHistory, useParams } from "react-router-dom";
-import { Image } from 'react-native';
 import useFetch from "./useFetch";
 import React from "react";
 
@@ -16,8 +15,12 @@ const BlogDetails = () => {
       <div class="right">
         <div class="top">
           <div class="ProfileGroup">
-            <div class="ProfilePic">
-              Insert image here
+            <div class="ProfilePic">              
+            <img
+                style={{ maxWidth: 250 }}
+                src="https://media.istockphoto.com/id/1262964438/photo/success-happens-the-moment-you-believe-it-will.jpg?s=612x612&w=0&k=20&c=tpjbR4aaaiB43sneEWgatyFIQOmN3E-3nB5CBE5Idyg="
+                alt="Headshot"
+              />
             </div>
             <div class="ContactInfo">
               contact information
