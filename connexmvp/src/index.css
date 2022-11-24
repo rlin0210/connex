@@ -135,6 +135,17 @@
 
 .ProfilePic {
   margin-top: 5%;
+  resize: both;
+  display: flex;
+  width: 75%;
+  height: auto;
+  overflow: overlay;
+  border-radius: 50%;
+  border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
+  box-sizing: border-box;
+  background-position: center;
+  white-space: normal;
+
 }
 
 .ContactInfo {
