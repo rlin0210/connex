@@ -102,7 +102,6 @@
   cursor: pointer;
 }
 
-
 /* Individual View */
 .overall {
   width: 100%;
@@ -113,6 +112,22 @@
   width: 50%;
   height: 100%;
   float: left;
+}
+
+/* Resume */
+.resume {
+  margin: 5% 2%;
+  border: 2px solid black; 
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.react-pdf__Page__textContent {
+	display: none;
+}
+
+.react-pdf__Page__annotations {
+	display: none;
 }
 
 .right {

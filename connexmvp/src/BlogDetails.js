@@ -1,6 +1,7 @@
 import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import React from "react";
+import Pdf from "./PDF";
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -14,7 +15,9 @@ const BlogDetails = () => {
       { application && (
         <article>
           <div class="left">
-            left hand side
+            <div class="resume">
+              <Pdf />
+            </div>
           </div>
           <div class="right">
             <div class="top">
