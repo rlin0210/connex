@@ -5,7 +5,7 @@ import Pdf from "./PDF";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: blog, error, isPending } = useFetch('http://localhost:8000/blogs/' + id);
+  const { data: application, error, isPending } = useFetch('http://localhost:8000/blogs/' + id);
   const history = useHistory();
 
   return (
@@ -28,6 +28,9 @@ const BlogDetails = () => {
                     src="https://media.istockphoto.com/id/1262964438/photo/success-happens-the-moment-you-believe-it-will.jpg?s=612x612&w=0&k=20&c=tpjbR4aaaiB43sneEWgatyFIQOmN3E-3nB5CBE5Idyg="
                     alt="Headshot"
                   />
+                </div>
+                <div class="ContactInfo">
+                  Contact Information
                 </div>
                 <div class="ContactInfo">
                   Name: {application.firstName} {application.lastName}
@@ -60,36 +63,14 @@ const BlogDetails = () => {
             <div className="EssayGroup">
               <div class="Essay1Group">
                       Essay 1 Prompt:
-              <div class="middle">
-                { application.essay1 }
-              </div>
+                <div class="middle">
+                  { application.essay1 }
+                </div>
               </div>
               <div class="Essay2Group">
                 Essay 2 Prompt:
-              <div class="bottom">
-                { application.essay2 }
-              </div>
-              <div class="ContactInfo">
-                contact information
-              </div>
-            </div>
-            </div>
-
-            <div class="OtherGroup">
-              <div class="ReferralGroup">
-                <div class="ReferralTitle">
-                  Referrals:
-                </div>
-                <div class="ReferralBody">
-                  referral text
-                </div>
-              </div>
-              <div class="AttachmentGroup">
-                <div class="AttachmentTitle">
-                    Attachments:
-                </div>
-                <div class="AttachmentBody">
-                  attachment text
+                <div class="bottom">
+                  { application.essay2 }
                 </div>
               </div>
             </div>
