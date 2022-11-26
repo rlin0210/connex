@@ -10,12 +10,12 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 90%;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #3a73f8;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #3a73f8;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #3a73f8;
 }
 /* .content {
   max-width: 600px;
@@ -37,15 +37,17 @@
 /* blog previews / list */
 .blog-preview {
   padding: 10px 16px;
-  margin: 20px 0;
+  margin: auto;
   border-bottom: 1px solid #fafafa;
+  width: 90%;
+  align-items: center;
 }
 .blog-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #5e98FF;
   margin-bottom: 8px;
 }
 .blog-preview a{
@@ -55,7 +57,7 @@
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #5e98FF;
   margin-bottom: 10px;
 }
 .blog-details div {
@@ -82,7 +84,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #3a73f8;
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -94,7 +96,7 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #3a73f8;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -115,11 +117,14 @@
 }
 
 /* Resume */
-.resume {
+.react-pdf__Page {
   margin: 5% 2%;
   border: 2px solid black; 
   border-radius: 10px;
-  box-sizing: border-box;
+  padding: 5px;
+  float: right;
+  margin: 25px;
+  position: absolute;
 }
 
 .react-pdf__Page__textContent {
@@ -132,11 +137,12 @@
 
 .right {
   width: 50%;
-  height: 100vh;
+  height: 100%;
   float: right;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  position: flex; 
 }
 
 .ProfileGroup {
@@ -234,8 +240,9 @@
   padding: 2%;
 }
 .Essay1Group{
-  margin-top: 5%;
+  margin-top: 5%; 
 }
 .Essay2Group{
   margin-top: 5%;
 }
+

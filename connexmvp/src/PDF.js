@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
 const url =
-"https://cors-anywhere.herokuapp.com/https://writing.colostate.edu/guides/documents/resume/functionalsample.pdf"
+"https://cors-anywhere.herokuapp.com/https://1.cdn.edl.io/t8bAB5OFQenQG73jlgvfN4Uffuh3doJgEXupJ1ZOqd1CxXZj.pdf"
 
 export default function Test() {
 	
@@ -11,7 +11,7 @@ export default function Test() {
 	const [pageNumber] = useState(1);
 	
 	return (
-		<div className="main">
+		<div className="PDFmain">
 			<Document file={url} >
 				<Page pageNumber={pageNumber} />
 			</Document>

@@ -76,6 +76,7 @@ const BlogDetails = () => {
             </div>
           </div>
         </article>
+        
         )}   
         </div>  
   );
