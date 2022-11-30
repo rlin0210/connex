@@ -123,7 +123,8 @@
   border-radius: 10px;
   padding: 5px;
   float: right;
-  margin: 25px;
+  margin: 15%;
+  flex-grow: 1;
   position: absolute;
 }
 
@@ -176,6 +177,7 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+
 }
 
 .ReferralGroup {
@@ -199,7 +201,7 @@
   font-size: 16px;
   font-weight: 400;
   padding: 2%;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
 .AttachmentBody {
@@ -211,7 +213,7 @@
   font-size: 16px;
   font-weight: 400;
   padding: 2%;
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
 .middle {
@@ -242,9 +244,11 @@
 .Essay1Group{
   margin-top: 5%;
   margin-right: 2%;
+  margin-left: 5%;
 }
 .Essay2Group{
   margin-top: 5%;
   margin-right: 2%;
+  margin-left: 5%;
 }
 
