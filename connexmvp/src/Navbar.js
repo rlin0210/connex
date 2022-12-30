@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
           color: 'white', 
           backgroundColor: '#3a73f8',
           borderRadius: '8px' 
-        }}>Your Network's Network</Link>
+        }}>Create Application</Link>
       </div>
     </nav>
   );

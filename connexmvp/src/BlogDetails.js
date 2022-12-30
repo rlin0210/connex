@@ -2,6 +2,7 @@ import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import React from "react";
 import Pdf from "./PDF";
+import "./BlogDetails.css";
 
 const BlogDetails = () => {
   const { id } = useParams();
