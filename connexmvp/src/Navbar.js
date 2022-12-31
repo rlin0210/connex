@@ -9,7 +9,10 @@ import compare from "./icons/compare.png"
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={connex} alt="connex logo" className="logo"/>
+      <div className="connex">
+        <img src={connex} alt="connex logo" className="logo"/>
+        Connex
+      </div>
 
       <div className="links">
         <div className="container">
