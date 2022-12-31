@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <div className="container">
           <img src={compare} alt="home icon" className="icons"/>
-          <Link to="/">Compare</Link>
+          <Link to="/table">Compare</Link>
         </div>
         <div className="container">
           <img src={setting} alt="home icon" className="icons"/>
