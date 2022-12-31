@@ -18,15 +18,13 @@ const Table = ({ data, column }) => {
   
   const TableHeadItem = ({ item }) => <th>{item.heading}</th>
   const TableRow = ({ item, column }) => (
-    <tr className='applicant'>
-      {column.map((columnItem) => {
-        console.log(columnItem)
-        // Checks for name and if it is then it makes it the link
-        if(columnItem.heading == 'Name') {
-            return <td><Link to={`/blogs/${item.id}`}>{item[`${columnItem.value}`]}</Link></td>
-        }
-        return <td>{item[`${columnItem.value}`]}</td>
-      })}
+    <tr>
+      <Link to={`/blogs/${item.id}`}>
+        {column.map((columnItem) => {
+          console.log(columnItem)
+          return <td>{item[`${columnItem.value}`]}</td>
+        })}
+      </Link>
     </tr>
   )
   
