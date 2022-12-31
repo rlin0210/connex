@@ -14,8 +14,10 @@
 }
 
 .navbar .logo {
-    padding: 10px 20px;
-    width: 40px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 30px;
 }
 
 .navbar .links {
@@ -26,14 +28,14 @@
 
 .links .container {
     border-left: 2px solid white;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     align-items: center;
 }
 
 .navbar a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     color: white;
 }
@@ -43,6 +45,6 @@
 }
 
 .navbar .icons {
-    width: 30px;
+    width: 20px;
     margin-right: 5px;
 }

@@ -21,11 +21,11 @@ const Navbar = () => {
         </div>
         <div className="container">
           <img src={compare} alt="home icon" className="icons"/>
-          <Link to="/table">Compare</Link>
+          <Link to="/nopath">Compare</Link>
         </div>
         <div className="container">
           <img src={setting} alt="home icon" className="icons"/>
-          <Link to="/">Settings</Link>
+          <Link to="/nopath">Settings</Link>
         </div>
         {/* <div className="container">
           <Link to="/create">Create</Link>
