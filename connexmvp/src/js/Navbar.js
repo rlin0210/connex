@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import "./Navbar.css";
-import connex from "./icons/logo.png";
-import setting from "./icons/setting.png"
-import home from "./icons/home.png"
-import compare from "./icons/compare.png"
+import "../css/Navbar.css";
+import connex from "../icons/logo.png";
+import setting from "../icons/setting.png"
+import home from "../icons/home.png"
+import compare from "../icons/compare.png"
 
 
 const Navbar = () => {

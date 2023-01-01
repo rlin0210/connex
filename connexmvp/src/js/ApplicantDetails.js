@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import React from "react";
 import Pdf from "./PDF";
-import "./ApplicantDetails.css";
+import "../css/ApplicantDetails.css";
 
 const ApplicantDetails = () => {
   const { id } = useParams();

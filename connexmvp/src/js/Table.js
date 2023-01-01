@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Table.css';
+import '../css/Table.css';
 
 const Table = ({ data, column }) => {
     return (
