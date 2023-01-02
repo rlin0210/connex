@@ -6,7 +6,7 @@ const Table = ({ data, column }) => {
       <table>
         <thead>
           <tr>
-            {column.map((item) => <TableHeadItem item={item} />)}
+            {column.map((item) => item.display && <TableHeadItem item={item}/>)}
           </tr>
         </thead>
         <tbody>
@@ -16,13 +16,13 @@ const Table = ({ data, column }) => {
     )
   }
   
-  const TableHeadItem = ({ item }) => <th>{item.heading}</th>
+  const TableHeadItem = ({ item }) => (<th>{item.heading}</th>)
+  
   const TableRow = ({ item, column }) => (
     <tr>
       <Link to={`/applicants/${item.id}`}>
         {column.map((columnItem) => {
-          console.log(columnItem)
-          return <td>{item[`${columnItem.value}`]}</td>
+          return columnItem.display && <td>{item[`${columnItem.value}`]}</td>
         })}
       </Link>
     </tr>

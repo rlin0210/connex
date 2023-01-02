@@ -1,6 +1,6 @@
 import "../css/ApplicantList.css";
 import Table from './Table';
-import { useState } from "react";
+import { createContext, useState } from "react";
 import FilterPopup from "./FilterPopup";
 import ManagePopup from "./ManagePopup";
 import ExportPopup from "./ExportPopup";
@@ -9,9 +9,9 @@ const ApplicantList = ({ applicants }) => {
 
   // maps the name to its values
   const column = [
-    { heading: 'Name', value: 'name' },
-    { heading: 'Major', value: 'major' },
-    { heading: 'Year', value: 'year' }
+    { heading: 'Name', value: 'name', display: true},
+    { heading: 'Major', value: 'major', display: true },
+    { heading: 'Year', value: 'year', display: true}
   ]
 
   // Contains information to show the Filter Columns Popup
@@ -50,7 +50,7 @@ const ApplicantList = ({ applicants }) => {
       <Table data={applicants} column={column} />
       {/* Holds the popups */}
       {filterOpen && <FilterPopup handleClose={toggleFilter}/>}
-      {manageOpen && <ManagePopup handleClose={toggleManage}/>}
+      {manageOpen && <ManagePopup handleClose={toggleManage} data={column}/>}
       {exportOpen && <ExportPopup handleClose={toggleExport}/>}
     </div>
   );

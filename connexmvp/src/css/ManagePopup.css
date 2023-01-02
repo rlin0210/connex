@@ -20,6 +20,15 @@
     border: 1px solid #999;
     overflow: auto;
   }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .toggles {
+    margin-top: 40px;
+  }
    
   .close-icon {
     position: fixed;

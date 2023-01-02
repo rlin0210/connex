@@ -1,16 +1,20 @@
-.container {
+.box .container {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name {
+    margin: auto 10px;
 }
 
 .toggle {
-    margin:auto;
     position: relative;
     width: 75px;
     display: inline-block;
     text-align: left;
-    top: 8px;
 }
 
 .checkbox {
@@ -29,7 +33,7 @@
     display: block;
     width: 200%;
     margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
+    transition: margin 0.1s ease-in 0s;
 }
 
 .inner:before,
@@ -45,15 +49,15 @@
 }
 
 .inner:before {
-    content: "YES";
+    content: "";
     padding-left: 10px;
-    background-color: #6EDC5F;
+    background-color: #bbb;
     color: #fff;
 }
 .inner:after {
-    content: "NO";
+    content: "";
     padding-right: 10px;
-    background-color: #bbb;
+    background-color: #6EDC5F;
     color: #fff;
     text-align: right;
 }
@@ -68,7 +72,7 @@
     right: 40px;
     border: 0 solid #bbb;
     border-radius: 20px;
-    transition: all 0.3s ease-in 0s;
+    transition: all 0.1s ease-in 0s;
 }
 .checkbox:checked + .label .inner {
     margin-left: 0;
