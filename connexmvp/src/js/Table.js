@@ -10,7 +10,7 @@ const Table = ({ data, column }) => {
           </tr>
         </thead>
         <tbody>
-          {data.map((item) => <TableRow item={item} column={column} />)}
+          {data.map((item) => <TableRow item={item} column={column}/>)}
         </tbody>
       </table>
     )

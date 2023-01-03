@@ -1,6 +1,6 @@
 import "../css/ApplicantList.css";
 import Table from './Table';
-import { createContext, useState } from "react";
+import { useState } from "react";
 import FilterPopup from "./FilterPopup";
 import ManagePopup from "./ManagePopup";
 import ExportPopup from "./ExportPopup";
@@ -8,11 +8,11 @@ import ExportPopup from "./ExportPopup";
 const ApplicantList = ({ applicants }) => {
 
   // maps the name to its values
-  const column = [
-    { heading: 'Name', value: 'name', display: true},
-    { heading: 'Major', value: 'major', display: true },
-    { heading: 'Year', value: 'year', display: true}
-  ]
+  const [column, setColumn] = useState([
+    { heading: 'Name', value: 'name', display: true, key: 1},
+    { heading: 'Major', value: 'major', display: true, key: 2},
+    { heading: 'Year', value: 'year', display: true, key: 3}
+  ])
 
   // Contains information to show the Filter Columns Popup
   const [filterOpen, setFilterOpen] = useState(false);
