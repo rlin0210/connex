@@ -30,7 +30,7 @@ const ApplicantList = ({ applicants }) => {
       <div className="above">
         <div className="tableButtons">
           <button className="manage" onClick={toggleManage}>
-            Manage Columns
+            Manage Rows
           </button>
         </div>
         <button className="export" onClick={toggleExport}>

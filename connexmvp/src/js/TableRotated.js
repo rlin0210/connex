@@ -5,7 +5,7 @@ const TableRotated = ({ data, column }) => {
     return (
       <table>
         <tbody>
-          {column.map((item) => <TableRow item={item} data={data}/>)}
+          {column.map((item) => item.display && <TableRow item={item} data={data}/>)}
         </tbody>
       </table>
     )
