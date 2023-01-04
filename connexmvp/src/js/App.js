@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
+import Compare from './Compare';
 import NotFound from './NotFound';
 import ApplicantDetails from './ApplicantDetails.js'
 import FilterPopup from './FilterPopup';
@@ -22,6 +23,9 @@ function App() {
             </Route> */}
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/compare">
+              <Compare />
             </Route>
             <Route path="/applicants/:id">
               <ApplicantDetails />
