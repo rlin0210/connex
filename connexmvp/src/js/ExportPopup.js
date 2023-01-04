@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CSVLink } from 'react-csv';
 import "../css/ManagePopup.css";
+import ApplicantList from "./ApplicantList";
   
 const ExportPopup = ({data, column}) => {
 
