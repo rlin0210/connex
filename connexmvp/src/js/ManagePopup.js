@@ -13,7 +13,7 @@ const ManagePopup = ({handleClose, data}) => {
             const pageCol = document.getElementById(title);
             const varCol = data.find(element => element.heading === title);
             if (pageCol.checked === varCol.display) {
-                data.find(element => element.heading === title).display = !varCol.display;
+                varCol.display = !varCol.display;
             }
         }
         handleClose();
