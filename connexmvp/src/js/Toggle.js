@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Toggle.css";
 
-const Toggle = ( {label, data} ) => {
+const Toggle = ( {label} ) => {
 
   return (
     <div className="container">

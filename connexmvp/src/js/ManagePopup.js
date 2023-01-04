@@ -43,7 +43,7 @@ const ManagePopup = ({handleClose, data}) => {
                 <span className="close-icon" onClick={handleClose}>x</span>
                 <div className="title">Manage Columns</div>
                 <div>
-                    {data.map((item) => <Toggle label={item.heading} data={data} key={item.key}/>)}
+                    {data.map((item) => <Toggle label={item.heading} key={item.key}/>)}
                 </div>
                 <button onClick={() => updateData(handleClose, data)}>
                     save changes
