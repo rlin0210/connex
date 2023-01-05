@@ -13,6 +13,12 @@ const ApplicantList = ({ applicants }) => {
     { heading: 'Year', value: 'year', display: true, key: 3}
   ])
 
+  // Contains information to show the Manage Applicants Popup
+  const [manageApplicants, setManageApplicants] = useState(false);
+  const toggleApplicants = () => {
+    setManageApplicants(!manageApplicants);
+  }
+
   // Contains information to show the Manage Columns Popup
   const [manageOpen, setManageOpen] = useState(false);
   const toggleManage = () => {
@@ -29,6 +35,9 @@ const ApplicantList = ({ applicants }) => {
     <div className="applicant-list">
       <div className="above">
         <div className="tableButtons">
+          <button className="manageApplicants" onClick={toggleApplicants}>
+            Change Applicants
+          </button>
           <button className="manage" onClick={toggleManage}>
             Manage Rows
           </button>
@@ -39,6 +48,7 @@ const ApplicantList = ({ applicants }) => {
       </div>
       <TableRotated data={applicants} column={column} />
       {/* Holds the popups */}
+      {manageApplicants && <ManagePopup handleClose={toggleApplicants}/>}
       {manageOpen && <ManagePopup handleClose={toggleManage} data={column}/>}
       {exportOpen && <ExportPopup handleClose={toggleExport}/>}
     </div>
