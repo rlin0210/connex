@@ -45,8 +45,8 @@ const ManagePopup = ({handleClose, data}) => {
                 <div>
                     {data.map((item) => <Toggle label={item.heading} key={item.key}/>)}
                 </div>
-                <button onClick={() => updateData(handleClose, data)}>
-                    save changes
+                <button className="save" onClick={() => updateData(handleClose, data)}>
+                    Save Changes
                 </button>
             </div>
         </div>

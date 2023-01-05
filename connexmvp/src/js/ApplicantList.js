@@ -9,9 +9,9 @@ const ApplicantList = ({ applicants }) => {
 
   // maps the name to its values
   const [column, setColumn] = useState([
-    { heading: 'Name', value: 'name', display: true, filter: false, reverse: false, key: 1},
-    { heading: 'Major', value: 'major', display: true, filter: false, reverse: false, key: 2},
-    { heading: 'Year', value: 'year', display: true, filter: false, reverse: false, key: 3}
+    { heading: 'Name', value: 'name', display: true, key: 1},
+    { heading: 'Major', value: 'major', display: true, key: 2},
+    { heading: 'Year', value: 'year', display: true, key: 3}
   ])
 
   // Contains information to show the Filter Columns Popup

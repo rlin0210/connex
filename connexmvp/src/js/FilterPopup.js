@@ -1,11 +1,10 @@
 import React from "react";
 import "../css/FilterPopup.css";
-import Toggle from "./Toggle";
-import { useLayoutEffect } from "react";
+import Dropdown from "./Dropdown";
 
 
 const FilterPopup = ({handleClose, column, applicants}) => {
-
+    const filter = [{heading: "A to Z", reverse: false}, {heading: "Z to A", reverse: true}];
     Array.prototype.alphaSort = function (sortParameter) {
         function compare(a, b) {
             function isNumeric(num){
@@ -26,57 +25,27 @@ const FilterPopup = ({handleClose, column, applicants}) => {
         this.sort(compare);
     }
 
-    // This will update the data when the correct toggles are selected
+    // This will update the data based on the selected dropdwon
     function updateData(handleClose, column, applicants) {
-        const titles = column.map(col => col.heading);
-        for (var i=0; i<titles.length; i++) {
-            const title = titles[i];
-            const pageCol = document.getElementById(title);
-            const varCol = column.find(element => element.heading === title);
-            if (pageCol.checked === varCol.filter) {
-                varCol.filter = !varCol.filter;
-            }
-            if (varCol.filter) {
-                applicants.alphaSort(varCol.value);
-            }
+        const col = document.getElementById("Column").value;
+        const fil = document.getElementById("Filter").value;
+        const varCol = column.find(c => c.heading === col);
+        applicants.alphaSort(varCol.value);
+        if (filter.find(f => f.heading === fil).reverse) {
+            applicants.reverse();
         }
         handleClose();
     }
 
-     // The function that sets the toggle buttons to the correct states
-     function manageToggle() {
-        const titles = column.map(col => col.heading);
-        for (var i=0; i<titles.length; i++) {
-            const title = titles[i];
-            const pageCol = document.getElementById(title);
-            const varCol = column.find(element => element.heading === title);
-            if (varCol.filter === false) {
-                pageCol.click();
-            }
-        }
-    }
-
-    // This finds if a toggle button was checked previously and sets it to the correct state
-    useLayoutEffect (() => {
-        manageToggle()
-    })
-
     return (
         <div className="popup-box">
             <div className="box">
+                <div className="title">Filter Columns</div>
                 <span className="close-icon" onClick={handleClose}>x</span>
-                    {column.map((item) => <Toggle label={item.heading} key={item.key}/>)}
-                    {/* {data.map((item) =>
-                        <div className={item.heading}> 
-                            <div className="title">
-                                {item.heading}
-                            </div>
-                            <Toggle label={"A to Z"}/>
-                            <Toggle label={"Z to A"}/>
-                        </div>
-                    )} */}
-                <button onClick={() => updateData(handleClose, column, applicants)}>
-                    save changes
+                    <Dropdown column={column} id="Column" label="Column"/>
+                    <Dropdown column={filter} id="Filter" label="Filter Type"/>
+                <button className="save" onClick={() => updateData(handleClose, column, applicants)}>
+                    Save Changes
                 </button>
             </div>
         </div>
