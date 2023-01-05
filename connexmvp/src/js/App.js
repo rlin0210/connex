@@ -5,7 +5,7 @@ import Create from './Create';
 import Compare from './Compare';
 import NotFound from './NotFound';
 import ApplicantDetails from './ApplicantDetails.js'
-import FilterPopup from './FilterPopup';
+//import FilterPopup from './FilterPopup';
 
 function App() {
   return (
