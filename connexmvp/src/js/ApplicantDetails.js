@@ -18,6 +18,11 @@ const ApplicantDetails = () => {
             <div class="resume">
               <Pdf />
             </div>
+            <div className="scoring">
+              <button>
+                Score Resume
+              </button>
+            </div>
           </div>
           <div class="right">
             <div class="top">
