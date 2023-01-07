@@ -51,7 +51,7 @@ const ApplicantList = ({ applicants }) => {
       {/* Holds the popups */}
       {filterOpen && <FilterPopup handleClose={toggleFilter}/>}
       {manageOpen && <ManagePopup handleClose={toggleManage} data={column}/>}
-      {exportOpen && <ExportPopup handleClose={toggleExport}/>}
+      {exportOpen && <ExportPopup handleClose={toggleExport} column={column} applicants={applicants}/>}
     </div>
   );
 }
