@@ -7,7 +7,7 @@ import ExportPopup from "./ExportPopup";
 const ApplicantList = ({ applicants }) => {
 
   // maps the name to its values
-  const [column, setColumn] = useState([
+  const [row, setRow] = useState([
     { heading: 'Name', value: 'name', display: true, key: 1},
     { heading: 'Major', value: 'major', display: true, key: 2},
     { heading: 'Year', value: 'year', display: true, key: 3}
@@ -46,10 +46,10 @@ const ApplicantList = ({ applicants }) => {
             Export Files
         </button>
       </div>
-      <TableRotated data={applicants} column={column} />
+      <TableRotated data={applicants} column={row} />
       {/* Holds the popups */}
       {manageApplicants && <ManagePopup handleClose={toggleApplicants}/>}
-      {manageOpen && <ManagePopup handleClose={toggleManage} data={column}/>}
+      {manageOpen && <ManagePopup handleClose={toggleManage} data={row}/>}
       {exportOpen && <ExportPopup handleClose={toggleExport}/>}
     </div>
   );
