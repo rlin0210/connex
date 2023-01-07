@@ -13,7 +13,7 @@ const ManagePopup = ({handleClose, data}) => {
             const pageCol = document.getElementById(title);
             const varCol = data.find(element => element.heading === title);
             if (pageCol.checked === varCol.display) {
-                data.find(element => element.heading === title).display = !varCol.display;
+                varCol.display = !varCol.display;
             }
         }
         handleClose();
@@ -43,10 +43,10 @@ const ManagePopup = ({handleClose, data}) => {
                 <span className="close-icon" onClick={handleClose}>x</span>
                 <div className="title">Manage Columns</div>
                 <div>
-                    {data.map((item) => <Toggle label={item.heading} data={data} key={item.key}/>)}
+                    {data.map((item) => <Toggle label={item.heading} key={item.key}/>)}
                 </div>
-                <button onClick={() => updateData(handleClose, data)}>
-                    save changes
+                <button className="save" onClick={() => updateData(handleClose, data)}>
+                    Save Changes
                 </button>
             </div>
         </div>
