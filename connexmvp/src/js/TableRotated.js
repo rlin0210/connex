@@ -16,10 +16,15 @@ const TableRotated = ({ data, column }) => {
   const TableRow = ({ item, data }) => (
     <tr>
       <th>{item.heading}</th>
-      {data.map((dataItem) => {
-        return <td>{dataItem[`${item.value}`]}</td>
-      })}
+      {data.map((dataItem) => { return <td>{dataItem[`${item.value}`]}</td> })}
     </tr>
   )
-  
+    
+  const TableRowSelect = ({ item, data }) => (
+    <tr>
+      <th>{item.heading}</th>
+      {data.map((dataItem) => { return <th><select name="" id=""></select></th>})}
+    </tr>
+  )
+
   export default TableRotated
