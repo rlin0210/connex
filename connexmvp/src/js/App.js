@@ -1,9 +1,9 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Create from './Create';
-import Compare from './Compare';
-import NotFound from './NotFound';
+import Create from './Create.js';
+import Compare from './Compare.js';
+import NotFound from './NotFound.js';
 import ApplicantDetails from './ApplicantDetails.js'
 //import FilterPopup from './FilterPopup';
 
