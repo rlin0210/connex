@@ -8,12 +8,11 @@ const ExportPopup = (props, {handleClose, column, applicants}) => {
     let data = props.applicants;
     let csvContent = "ID,First Name,Last Name,Name,Major,Year,Essay1,Essay2\n"
     data.forEach(element => {
-        console.log(element);
-        let row = element.id + "," + element.firstName + "," + element.lastName + "," + element.name + "," + element.major + "," + element.year  + "," + element.essay1  + "," + element.essay2 + "," + element.id + "\n"
+        let row = element.id + "," + element.firstName + "," + element.lastName + "," + element.name + "," + element.major + "," + element.year  + "," + element.essay1.toString().replaceAll(/[\r\n]/gm, "").replaceAll(/,/gm,"")  + "," + element.essay2.toString().toString().replaceAll(/[\r\n]/gm, "").replaceAll(/,/gm,"")+ "\n"
         csvContent += row;
     });
     var saveThis = new Blob([csvContent], {type: 'text/csv'});
-    console.log(saveThis);
+    
     saveFile(saveThis, "ConnexData.csv")
 
    }
