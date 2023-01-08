@@ -1,6 +1,7 @@
 import "../css/ApplicantList.css";
 import TableRotated from './TableRotated';
 import { useState } from "react";
+import ChangePopup from "./ChangePopup"
 import ManagePopup from "./ManagePopup";
 import ExportPopup from "./ExportPopup";
 
@@ -48,7 +49,7 @@ const ApplicantList = ({ applicants }) => {
       </div>
       <TableRotated data={applicants} column={row} />
       {/* Holds the popups */}
-      {manageApplicants && <ManagePopup handleClose={toggleApplicants}/>}
+      {manageApplicants && <ChangePopup handleClose={toggleApplicants}/>}
       {manageOpen && <ManagePopup handleClose={toggleManage} data={row}/>}
       {exportOpen && <ExportPopup handleClose={toggleExport}/>}
     </div>

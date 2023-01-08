@@ -3,7 +3,7 @@ import '../css/Table.css';
 
 const Table = ({ data, column }) => {
     return (
-      <table>
+      <table class="table">
         <thead>
           <tr>
             {column.map((item) => item.display && <TableHeadItem item={item}/>)}

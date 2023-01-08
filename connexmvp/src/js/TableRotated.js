@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import '../css/Table.css';
+import '../css/TableRotated.css';
 
 const TableRotated = ({ data, column }) => {
     return (
-      <table>
+      <table className="rotated">
         <tbody>
           {column.map((item) => item.display && <TableRow item={item} data={data}/>)}
         </tbody>
