@@ -1,33 +1,36 @@
-import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Create from './Create';
-import NotFound from './NotFound';
+import Compare from './Compare.js';
+import NotFound from './NotFound.js';
 import ApplicantDetails from './ApplicantDetails.js'
-import FilterPopup from './FilterPopup';
+import SignIn from './SignIn';
+import { useState } from "react";
+
+
 
 function App() {
+  const [signedIn, setSignedIn] = useState(false)
+  const toggleSignedIn = () => {
+    setSignedIn(!signedIn);
+  }
+
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
-              <Home />
+            <Route exact path="/" render={() => !signedIn ?<SignIn toggleSignedIn={toggleSignedIn}/>:<Home toggleSignedIn={toggleSignedIn}/>}/>
+            <Route path="/home">
+              <Home toggleSignedIn={toggleSignedIn}/>
             </Route>
-            {/* Use this path below for testing purposes */}
-            {/* <Route path="/popup">
-              <FilterPopup />
-            </Route> */}
-            <Route path="/create">
-              <Create />
+            <Route path="/compare">
+              <Compare toggleSignedIn={toggleSignedIn}/>
             </Route>
             <Route path="/applicants/:id">
-              <ApplicantDetails />
+              <ApplicantDetails toggleSignedIn={toggleSignedIn}/>
             </Route>
             <Route path="*">
-              <NotFound />
+              <NotFound toggleSignedIn={toggleSignedIn}/>
             </Route>
           </Switch>
         </div>

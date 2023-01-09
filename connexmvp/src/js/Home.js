@@ -1,14 +1,17 @@
 import ApplicantList from "./ApplicantList";
-import useFetch from "./useFetch";
+// import useFetch from "./useFetch";
+import data from "../data/db.json";
+import Navbar from "./Navbar";
 
-const Home = () => {
-  const { error, isPending, data: applicants } = useFetch('http://localhost:8000/applicants')
+const Home = ({toggleSignedIn}) => {
+  // const { error, isPending, data: applicants } = useFetch('db.json')
 
   return (
     <div className="home">
-      { error && <div>{ error }</div> }
-      { isPending && <div>Loading...</div> }
-      { applicants && <ApplicantList applicants={applicants} /> }
+      <Navbar toggleSignedIn={toggleSignedIn}/>
+      {/* { error && <div>{ error }</div> }
+      { isPending && <div>Loading...</div> } */}
+      { data.applicants && <ApplicantList applicants={data.applicants} /> }
     </div>
   );
 }

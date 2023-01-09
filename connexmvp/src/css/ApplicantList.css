@@ -36,6 +36,14 @@
     font-weight: bold;
 }
 
+.manageApplicants {
+    color: #2C80FF;
+    border: 2px solid #2C80FF;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
 .above button {
     background-color: white;
     color: #2C80FF;

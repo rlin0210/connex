@@ -6,9 +6,9 @@
     height: 100vh;
     top: 0;
     left: 0;
-  }
-   
-  .box {
+}
+
+.box {
     position: relative;
     width: 50%;
     margin: 0 auto;
@@ -19,9 +19,14 @@
     padding: 20px;
     border: 1px solid #999;
     overflow: auto;
-  }
-   
-  .close-icon {
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close-icon {
     position: fixed;
     right: calc(25% - 30px);
     top: calc(15vh - 33px);
@@ -33,16 +38,8 @@
     line-height: 25px;
     text-align: center;
     font-size: 20px;
-  }
+}
 
-  .close-icon:hover {
+.close-icon:hover {
     cursor: pointer;
-  }
-
-  .save {
-    background-color: white;
-    color: #2C80FF;
-    border: 2px solid #2C80FF;
-    padding: 5px;
-    border-radius: 10px;
-  }
+}

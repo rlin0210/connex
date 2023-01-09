@@ -6,7 +6,12 @@ import home from "../icons/home.png"
 import compare from "../icons/compare.png"
 
 
-const Navbar = () => {
+const Navbar = ({toggleSignedIn}) => {
+
+  function check() {
+    toggleSignedIn();
+  }
+  
   return (
     <nav className="navbar">
       <div className="connex">
@@ -16,12 +21,15 @@ const Navbar = () => {
 
       <div className="links">
         <div className="container">
+          <Link to="/" onClick={() => check()}>Sign Out</Link>
+        </div>
+        <div className="container">
           <img src={home} alt="home icon" className="icons"/>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
         </div>
         <div className="container">
           <img src={compare} alt="home icon" className="icons"/>
-          <Link to="/nopath">Compare</Link>
+          <Link to="/compare">Compare</Link>
         </div>
         <div className="container">
           <img src={setting} alt="home icon" className="icons"/>

@@ -5,44 +5,46 @@
   }
   
   .left {
-    width: 40%;
+    width: 50%;
     height: 100%;
     float: left;
-    padding-left: 10%;
+  }
+
+  .resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    overflow: auto;
   }
   
-  /* Resume */
   .react-pdf__Page {
-    margin: 5% 2%;
     border: 2px solid black; 
     border-radius: 10px;
     padding: 5px;
-    float: right;
-    margin: 15%;
-    flex-grow: 1;
-    flex-direction: column;
-    position: fixed;
   }
   
-  .react-pdf__Page__textContent {
+  /* .react-pdf__Page__textContent {
       display: none;
   }
   
   .react-pdf__Page__annotations {
       display: none;
+  } */
+
+  .scoring {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
   }
   
   .right {
     width: 50%;
     height: 100%;
     float: right;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    position: flex; 
-    padding-right: -10%;
     max-width: 80%;
-    
+    overflow: auto;
   }
   
   .ProfileGroup {
@@ -50,7 +52,6 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     align-items: center;
   }
   
@@ -61,7 +62,6 @@
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid rgba(25.000000409781933,111.00000098347664,250.00000029802322,1);
-    justify-content: center;
     max-width: 75%;
   }
   
@@ -73,10 +73,8 @@
     float: right;
     width: 60%;
     height: 100%;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
-  
   }
   
   .ReferralGroup {
