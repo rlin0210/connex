@@ -27,7 +27,7 @@ const ExportPopup = (props, {handleClose, column, applicants}) => {
        setTimeout(() => {
         window.URL.revokeObjectURL(url);
         document.body.removeChild(a);
-       }, 0)
+       }, 10)
    }
    
 
