@@ -3,8 +3,9 @@ import useFetch from "./useFetch";
 import React from "react";
 import Pdf from "./PDF";
 import "../css/ApplicantDetails.css";
+import Navbar from "./Navbar";
 
-const ApplicantDetails = () => {
+const ApplicantDetails = ({toggleSignedIn}) => {
   const { id } = useParams();
   const { data: application, error, isPending } = useFetch('http://localhost:8000/applicants/' + id);
 
@@ -12,6 +13,7 @@ const ApplicantDetails = () => {
     <div class="overall">
       { isPending && <div>Loading...</div> }
       { error && <div>{ error }</div> }
+      <Navbar toggleSignedIn={toggleSignedIn}/>
       { application && (
         <article>
           <div class="left">
