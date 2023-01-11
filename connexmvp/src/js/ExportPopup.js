@@ -39,14 +39,10 @@ const ExportPopup = (props, {handleClose, column, applicants}) => {
     <div className="box">
         <span className="close-icon" onClick={props.handleClose}>x</span>
         <div className="title">Export Data</div>
-        <div className="CSV Link"> 
         <form>
-            <button onClick={createCSV()}> Click to Downlaod Data</button>
+            <button onClick={(e) => createCSV()}> Click to Downlaod Data</button>
         </form>
-        </div>
     </div>
-    
-    
 </div>
     );
 }
