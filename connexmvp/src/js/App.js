@@ -7,7 +7,6 @@ import SignIn from './SignIn';
 import { useState } from "react";
 
 
-
 function App() {
   const [signedIn, setSignedIn] = useState(false)
   const toggleSignedIn = () => {
