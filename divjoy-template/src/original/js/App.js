@@ -5,7 +5,7 @@ import NotFound from './NotFound.js';
 import ApplicantDetails from './ApplicantDetails.js'
 import SignIn from './SignIn';
 import { useState } from "react";
-import './css/index.css';
+import "../css/index.css";
 
 
 function App() {
